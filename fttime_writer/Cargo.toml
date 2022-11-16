@@ -1,0 +1,21 @@
+[package]
+name = "fttime_writer"
+version = "0.1.0"
+edition = "2021"
+authors = [ "Non-convex Tech" ]
+license = "GPL-3.0"
+readme = "README.md"
+repository = "https://github.com/nonconvextech/fttime"
+description = """
+A High performance timestamp middleware
+"""
+keywords = [ "timestamp" ]
+
+[dev-dependencies]
+chrono = "0.4.22"
+
+[dependencies]
+ftlog = "0.1.1"
+shm = "0.1.0"
+anyhow = "1.0.66"
+fttime_reader = {path = "../fttime_reader"}

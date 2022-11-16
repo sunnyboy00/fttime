@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "fttime_writer",
+    "fttime_reader",
+    "fttime_monitor"
+]
